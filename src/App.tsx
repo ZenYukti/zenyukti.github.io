@@ -18,6 +18,7 @@ import NotFound from "./pages/NotFound";
 import Privacy from "./pages/Privacy";
 import CodeOfConduct from "./pages/CodeOfConduct";
 import TermsOfService from "./pages/TermsOfService";
+import Notes from "./pages/Notes";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +34,7 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/notes" element={<Notes />} />
             <Route path="/join-us" element={<Domains />} />
             <Route path="/NotFound" element={<NotFound />} />
             <Route path="/community" element={<Community />} />

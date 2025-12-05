@@ -9,3 +9,4 @@ export { LuX as Cross} from "react-icons/lu";
 export { LuGraduationCap as Mentors , LuHandHelping as Contributors } from "react-icons/lu";
 export { FaUserTie as Usertie} from "react-icons/fa6";
 export { GrProjects as Projects } from "react-icons/gr";
+export { LuLink as Commudle } from "react-icons/lu";
