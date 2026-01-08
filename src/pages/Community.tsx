@@ -7,6 +7,8 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import SEO from "@/components/SEO";
+import { pageMetadata } from "@/config/metadata";
 import {
   Instagram,
   Linkedin,
@@ -122,6 +124,12 @@ const Community = () => {
   }, []);
 
   return (
+    <>
+      <SEO
+        title={pageMetadata.community.title}
+        description={pageMetadata.community.description}
+        keywords={pageMetadata.community.keywords}
+      />
     <div className="min-h-screen bg-background">
       <main className="pt-20">
         {/* Hero Section */}
@@ -381,6 +389,7 @@ const Community = () => {
         </section>
       </main>
     </div>
+    </>
   );
 };
 
