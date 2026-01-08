@@ -8,6 +8,65 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* ZenYukti Light Theme Design System */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 263 85% 62%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 142 76% 36%;
+
+    --radius: 0.75rem;
+
+    /* Custom ZenYukti Colors - Light Mode */
+    --neon-green: 142 76% 36%;
+    --neon-purple: 263 85% 62%;
+    --neon-blue: 199 89% 48%;
+    --dark-surface: 210 40% 96%;
+    --darker-surface: 0 0% 100%;
+    
+    /* Gradients for Light Mode */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--neon-green)), hsl(var(--neon-blue)));
+    --gradient-secondary: linear-gradient(135deg, hsl(var(--neon-purple)), hsl(var(--accent)));
+    --gradient-dark: linear-gradient(135deg, hsl(210 40% 98%), hsl(0 0% 100%));
+    
+    /* Shadows for Light Mode */
+    --shadow-neon: 0 0 20px hsl(var(--neon-green) / 0.2);
+    --shadow-purple: 0 0 20px hsl(var(--neon-purple) / 0.2);
+    --shadow-card: 0 8px 32px hsl(222 47% 11% / 0.1);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
     /* ZenYukti Dark Theme Design System */
     --background: 222 84% 4.9%;
     --foreground: 210 40% 98%;
@@ -35,14 +94,12 @@ All colors MUST be HSL.
 
     --border: 217 32.6% 17.5%;
     --input: 217 32.6% 17.5%;
-    /*--ring: 142 76% 36%;*/
     --ring: 280 70% 35%;
 
     --radius: 0.75rem;
 
-    /* Custom ZenYukti Colors */
+    /* Custom ZenYukti Colors - Dark Mode */
     --neon-green: 280 70% 35%;
-   /* --neon-green: 142 76% 36%; */
     --neon-purple: 263 85% 62%;
     --neon-blue: 199 89% 48%;
     --dark-surface: 225 25% 8%;
@@ -58,51 +115,6 @@ All colors MUST be HSL.
     --shadow-purple: 0 0 20px hsl(var(--neon-purple) / 0.3);
     --shadow-card: 0 8px 32px hsl(222 84% 4.9% / 0.3);
 
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
-
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

@@ -13,6 +13,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import teamMembersk from "@/assets/teamdata/teamdata.json";
+import SEO from "@/components/SEO";
+import { pageMetadata } from "@/config/metadata";
 import {
   Users,
   Linkedin,
@@ -129,7 +131,13 @@ const getSocialLinks = (member: TeamMember): SocialLink[] => {
   };
 
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <SEO
+        title={pageMetadata.team.title}
+        description={pageMetadata.team.description}
+        keywords={pageMetadata.team.keywords}
+      />
+      <div className="min-h-screen bg-background">
       <Header />
 
       <main className="pt-20">
@@ -641,6 +649,7 @@ const getSocialLinks = (member: TeamMember): SocialLink[] => {
         </section>
       </main>
     </div>
+    </>
   );
 };
 

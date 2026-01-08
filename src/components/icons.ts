@@ -4,6 +4,7 @@
 export { SiDiscord as Discord , SiLinkedin as Linkedin, SiGithub as Github , SiInstagram as Instagram , SiWhatsapp as Whatsapp} from "react-icons/si";
 export {PiCodeSimple as Code , PiUsersThreeLight as Users} from "react-icons/pi";
 export { LuHeart as Heart, LuMail as Mail } from "react-icons/lu";
+export { SiGoogleclassroom as Commudle } from "react-icons/si"; // Using classroom icon as placeholder
 export { BsTwitterX as X } from "react-icons/bs";
 export { LuX as Cross} from "react-icons/lu";       
 export { LuGraduationCap as Mentors , LuHandHelping as Contributors } from "react-icons/lu";

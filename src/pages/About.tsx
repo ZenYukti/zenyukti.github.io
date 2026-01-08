@@ -1,7 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Target, Eye, Heart,Code, Share2 } from "lucide-react";
 import { Users } from "@/components/icons";
-import { Helmet } from "react-helmet-async";
+import SEO from "@/components/SEO";
+import { pageMetadata } from "@/config/metadata";
 
 const About = () => {
   const timeline = [
@@ -50,10 +51,15 @@ const About = () => {
   ];
 
   return (
-
-    <div className="min-h-screen bg-background">
-      {/* Hero Section */}
-      <section className="pt-24 pb-16 relative overflow-hidden">
+    <>
+      <SEO
+        title={pageMetadata.about.title}
+        description={pageMetadata.about.description}
+        keywords={pageMetadata.about.keywords}
+      />
+      <div className="min-h-screen bg-background">
+        {/* Hero Section */}
+        <section className="pt-24 pb-16 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-dark"></div>
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-neon-purple/10 rounded-full blur-3xl"></div>
         
@@ -208,6 +214,7 @@ const About = () => {
         </div>
       </section>
     </div>
+    </>
   
   );
 };

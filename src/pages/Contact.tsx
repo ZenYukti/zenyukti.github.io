@@ -4,6 +4,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useState } from "react";
+import SEO from "@/components/SEO";
+import { pageMetadata } from "@/config/metadata";
 import { Discord, Github, Linkedin, Mail } from "@/components/icons";
 
 const Contact = () => {
@@ -66,6 +68,12 @@ const Contact = () => {
   };
 
   return (
+    <>
+      <SEO
+        title={pageMetadata.contact.title}
+        description={pageMetadata.contact.description}
+        keywords={pageMetadata.contact.keywords}
+      />
     <div className="min-h-screen bg-background">
       <main className="pt-20">
         {/* Hero Section */}
@@ -298,7 +306,7 @@ const Contact = () => {
                   <Button
   size="lg"
   variant="outline"
-  className="border-white text-white hover:bg-white hover:text-primary"
+  className="border-primary text-primary hover:bg-primary hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-primary"
   onClick={() =>
     window.open(
       `mailto:partnerships@zenyukti.in?subject=${encodeURIComponent(
@@ -319,6 +327,7 @@ const Contact = () => {
         </section>
       </main>
     </div>
+    </>
   );
 };
 

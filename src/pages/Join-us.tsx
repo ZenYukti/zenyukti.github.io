@@ -1,6 +1,8 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Calendar} from "lucide-react";
+import SEO from "@/components/SEO";
+import { pageMetadata } from "@/config/metadata";
 import { Discord,Whatsapp,Github,Users, Mentors, Contributors, Usertie, Projects} from "@/components/icons";
 
 const Domains = () => {
@@ -38,6 +40,12 @@ const Domains = () => {
   ];
 
   return (
+    <>
+      <SEO
+        title={pageMetadata.joinUs.title}
+        description={pageMetadata.joinUs.description}
+        keywords={pageMetadata.joinUs.keywords}
+      />
     <div className="min-h-screen bg-background">
       <main className="pt-20">
         {/* Hero Section */}
@@ -128,6 +136,7 @@ const Domains = () => {
         </section>
       </main>
     </div>
+    </>
   );
 };
 
