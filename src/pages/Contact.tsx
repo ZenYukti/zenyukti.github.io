@@ -306,7 +306,7 @@ const Contact = () => {
                   <Button
   size="lg"
   variant="outline"
-  className="border-white text-white hover:bg-white hover:text-primary"
+  className="border-primary text-primary hover:bg-primary hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-primary"
   onClick={() =>
     window.open(
       `mailto:partnerships@zenyukti.in?subject=${encodeURIComponent(
