@@ -1,7 +1,9 @@
 <div align="center">
 
-ZenYukti Organization
-**Open-Source Platform for Community Learning and Technical Excellence**
+# ZenYukti Website
+
+**Modern, Fast, and Accessible Web Experience**
+
 [![Live Website](https://img.shields.io/badge/%20Live%20Website-Visit%20Now-blue?style=for-the-badge)](https://zenyukti.in/)
 [![GitHub Stars](https://img.shields.io/github/stars/ZenYukti/zenyukti.github.io?style=for-the-badge&logo=github&color=yellow)](https://github.com/ZenYukti/zenyukti.github.io/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/ZenYukti/zenyukti.github.io?style=for-the-badge&logo=github&color=green)](https://github.com/ZenYukti/zenyukti.github.io/network/members)
