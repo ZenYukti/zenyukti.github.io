@@ -1,10 +1,8 @@
 <div align="center">
 
-# ZenYukti Website
-
-**Modern, Fast, and Accessible Web Experience**
-
-[![Live Website](https://img.shields.io/badge/🌐%20Live%20Website-Visit%20Now-blue?style=for-the-badge)](https://zenyukti.in/)
+ZenYukti Organization
+**Open-Source Platform for Community Learning and Technical Excellence**
+[![Live Website](https://img.shields.io/badge/%20Live%20Website-Visit%20Now-blue?style=for-the-badge)](https://zenyukti.in/)
 [![GitHub Stars](https://img.shields.io/github/stars/ZenYukti/zenyukti.github.io?style=for-the-badge&logo=github&color=yellow)](https://github.com/ZenYukti/zenyukti.github.io/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/ZenYukti/zenyukti.github.io?style=for-the-badge&logo=github&color=green)](https://github.com/ZenYukti/zenyukti.github.io/network/members)
 [![GitHub Issues](https://img.shields.io/github/issues/ZenYukti/zenyukti.github.io?style=for-the-badge&logo=github&color=red)](https://github.com/ZenYukti/zenyukti.github.io/issues)
@@ -16,21 +14,21 @@
 
 ---
 
-**[🌟 Live Demo](https://zenyukti.in/) • [📚 Documentation](https://github.com/ZenYukti/zenyukti.github.io/wiki) • [🐛 Report Bug](https://github.com/ZenYukti/zenyukti.github.io/issues) • [✨ Request Feature](https://github.com/ZenYukti/zenyukti.github.io/issues)**
+**[Live Demo](https://zenyukti.in/) • [Documentation](https://github.com/ZenYukti/zenyukti.github.io/wiki) • [Report Bug](https://github.com/ZenYukti/zenyukti.github.io/issues) • [Request Feature](https://github.com/ZenYukti/zenyukti.github.io/issues)**
 
 </div>
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 <details>
 <summary>Click to expand</summary>
 
 - [ZenYukti Website](#zenyukti-website)
-  - [📖 Table of Contents](#-table-of-contents)
+  - [Table of Contents](#-table-of-contents)
   - [About The Project](#about-the-project)
-    - [✨ Key Features](#-key-features)
+    - [Key Features](#-key-features)
   - [Built With](#built-with)
     - [Technology Stack](#technology-stack)
   - [Getting Started](#getting-started)
@@ -78,7 +76,7 @@
 
 Zenyukti Website is a modern, responsive web application built with cutting-edge technologies to deliver exceptional user experiences. Our mission is to provide a fast, accessible, and visually appealing platform that serves our community's needs.
 
-### ✨ Key Features
+### Key Features
 
 - 📱 **Fully Responsive** - Seamless experience across all devices and screen sizes
 - ⚡ **Lightning Fast** - Optimized performance with <3s load times
@@ -486,7 +484,7 @@ Want to be on this list? Check out our [Contributing Guide](CONTRIBUTING.md) to 
 
 </div>
 
-- 💡 The open-source community for inspiration and resources
+- The open-source community for inspiration and resources
 - 🛠️ [Vite](https://vitejs.dev/) team for the amazing build tool
 - 🎨 [GitHub](https://github.com/) for hosting and CI/CD capabilities
 - 📚 [MDN Web Docs](https://developer.mozilla.org/) for comprehensive documentation
@@ -495,9 +493,9 @@ Want to be on this list? Check out our [Contributing Guide](CONTRIBUTING.md) to 
 
 <div align="center">
 
-**Made with ❤️ by the Zenyukti Team**
+**Made with  by the Zenyukti Team**
 
-⭐ **Star this repository if you find it helpful!**
+**Star this repository if you find it helpful!**
 
 [![GitHub Stars](https://img.shields.io/github/stars/ZenYukti/zenyukti.github.io?style=social)](https://github.com/ZenYukti/zenyukti.github.io/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/ZenYukti/zenyukti.github.io?style=social)](https://github.com/ZenYukti/zenyukti.github.io/network/members)
