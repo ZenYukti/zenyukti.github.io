@@ -80,14 +80,14 @@ Zenyukti Website is a modern, responsive web application built with cutting-edge
 
 ### Key Features
 
-- 📱 **Fully Responsive** - Seamless experience across all devices and screen sizes
-- ⚡ **Lightning Fast** - Optimized performance with <3s load times
-- 🔍 **SEO Optimized** - Built-in SEO best practices
-- 🎨 **Modern Design** - Clean, intuitive user interface
-- 🌙 **Dark Mode Support** - Toggle between light and dark themes (Coming Soon)
-- 🔧 **Developer Friendly** - Well-documented codebase with modern tooling
-- 🚀 **CI/CD Pipeline** - Automated testing and deployment (Coming Soon)
-- 🔍 **Detailed Info** - Visit Wiki pages [Home Page - wiki | ZenYukti](https://github.com/ZenYukti/zenyukti.github.io/wiki)
+- **Fully Responsive** - Seamless experience across all devices and screen sizes
+- **Lightning Fast** - Optimized performance with <3s load times
+- **SEO Optimized** - Built-in SEO best practices
+- **Modern Design** - Clean, intuitive user interface
+- **Dark Mode Support** - Toggle between light and dark themes (Coming Soon)
+- **Developer Friendly** - Well-documented codebase with modern tooling
+- **CI/CD Pipeline** - Automated testing and deployment (Coming Soon)
+- **Detailed Info** - Visit Wiki pages [Home Page - wiki | ZenYukti](https://github.com/ZenYukti/zenyukti.github.io/wiki)
 
 ---
 
@@ -458,7 +458,7 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information
 
 **Project Links**
 
-[🏠 Homepage](https://zenyukti.in/) • [📊 Issues](https://github.com/ZenYukti/zenyukti.github.io/issues) • [🚀 Releases](https://github.com/ZenYukti/zenyukti.github.io/releases) • [📈 Insights](https://github.com/ZenYukti/zenyukti.github.io/pulse)
+[Homepage](https://zenyukti.in/) • [Issues](https://github.com/ZenYukti/zenyukti.github.io/issues) • [Releases](https://github.com/ZenYukti/zenyukti.github.io/releases) • [Insights](https://github.com/ZenYukti/zenyukti.github.io/pulse)
 
 </div>
 
@@ -487,9 +487,9 @@ Want to be on this list? Check out our [Contributing Guide](CONTRIBUTING.md) to 
 </div>
 
 - The open-source community for inspiration and resources
-- 🛠️ [Vite](https://vitejs.dev/) team for the amazing build tool
-- 🎨 [GitHub](https://github.com/) for hosting and CI/CD capabilities
-- 📚 [MDN Web Docs](https://developer.mozilla.org/) for comprehensive documentation
+- [Vite](https://vitejs.dev/) team for the amazing build tool
+- [GitHub](https://github.com/) for hosting and CI/CD capabilities
+- [MDN Web Docs](https://developer.mozilla.org/) for comprehensive documentation
 
 ---
 
