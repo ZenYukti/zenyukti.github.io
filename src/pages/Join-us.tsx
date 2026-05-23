@@ -11,7 +11,7 @@ const Domains = () => {
       icon: Users,
       action: "Join Community",
       links: [
-        { name: "Join WhatsApp Group", url: "https://chat.whatsapp.com/B4zVLDm9frx92REjI9d4gO?mode=ems_copy_c", icon: Whatsapp },
+        { name: "Join WhatsApp Group", url: "https://chat.whatsapp.com/Em0d53VddahBeIEv69W4o8", icon: Whatsapp },
         { name: "Join Discord Server", url: "https://discord.gg/HuBa9r33kW", icon: Discord }
       ]
     },

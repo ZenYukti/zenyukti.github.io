@@ -4,7 +4,7 @@
 
 **Modern, Fast, and Accessible Web Experience**
 
-[![Live Website](https://img.shields.io/badge/🌐%20Live%20Website-Visit%20Now-blue?style=for-the-badge)](https://zenyukti.in/)
+[![Live Website](https://img.shields.io/badge/%20Live%20Website-Visit%20Now-blue?style=for-the-badge)](https://zenyukti.in/)
 [![GitHub Stars](https://img.shields.io/github/stars/ZenYukti/zenyukti.github.io?style=for-the-badge&logo=github&color=yellow)](https://github.com/ZenYukti/zenyukti.github.io/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/ZenYukti/zenyukti.github.io?style=for-the-badge&logo=github&color=green)](https://github.com/ZenYukti/zenyukti.github.io/network/members)
 [![GitHub Issues](https://img.shields.io/github/issues/ZenYukti/zenyukti.github.io?style=for-the-badge&logo=github&color=red)](https://github.com/ZenYukti/zenyukti.github.io/issues)
@@ -12,39 +12,57 @@
 [![Build Status](https://img.shields.io/github/actions/workflow/status/ZenYukti/zenyukti.github.io/deploy.yml?style=flat-square&logo=github-actions)](https://github.com/ZenYukti/zenyukti.github.io/actions)
 [![License](https://img.shields.io/github/license/ZenYukti/zenyukti.github.io?style=flat-square)](LICENSE)
 [![Code Size](https://img.shields.io/github/languages/code-size/ZenYukti/zenyukti.github.io?style=flat-square)](https://github.com/ZenYukti/zenyukti.github.io)
-[![Last Commit](https://img.shields.io/github/last-commit/ZenYukti/zenyukti.github.io?style=flat-square)](https://github.com/ZenYukti/zenyukti.github.io/commits/main)
+[![Last Commit](https://img.shields.io/github/last-commit/ZenYukti/zenyukti.github.io/dev?style=flat-square&label=last%20commit%20(dev))](https://github.com/ZenYukti/zenyukti.github.io/commits/dev)
 
 ---
 
-**[🌟 Live Demo](https://zenyukti.in/) • [📚 Documentation](https://github.com/ZenYukti/zenyukti.github.io/wiki) • [🐛 Report Bug](https://github.com/ZenYukti/zenyukti.github.io/issues) • [✨ Request Feature](https://github.com/ZenYukti/zenyukti.github.io/issues)**
+**[Live Demo](https://zenyukti.in/) • [Documentation](https://github.com/ZenYukti/zenyukti.github.io/wiki) • [Report Bug](https://github.com/ZenYukti/zenyukti.github.io/issues) • [Request Feature](https://github.com/ZenYukti/zenyukti.github.io/issues)**
 
 </div>
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 <details>
 <summary>Click to expand</summary>
 
-1. [About The Project](#about-the-project)
-2. [Built With](#built-with)
-3. [Getting Started](#getting-started)
-   - [Prerequisites](#prerequisites)
-   - [Installation](#installation)
-   - [Development](#development)
-4. [Usage](#usage)
-5. [Project Structure](#project-structure)
-6. [Scripts](#available-scripts)
-7. [Roadmap](#roadmap)
-8. [Contributing](#contributing)
-9. [Testing](#testing)
-10. [Deployment](#deployment)
-11. [Performance](#performance)
-12. [Browser Support](#browser-support)
-13. [License](#license)
-14. [Contact](#contact)
-15. [Acknowledgments](#acknowledgments)
+- [ZenYukti Website](#zenyukti-website)
+  - [Table of Contents](#-table-of-contents)
+  - [About The Project](#about-the-project)
+    - [Key Features](#-key-features)
+  - [Built With](#built-with)
+    - [Technology Stack](#technology-stack)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Development](#development)
+  - [Usage](#usage)
+    - [Basic Usage](#basic-usage)
+    - [Development Workflow](#development-workflow)
+  - [Project Structure](#project-structure)
+  - [Available Scripts](#available-scripts)
+  - [Roadmap](#roadmap)
+    - [Upcoming Features](#upcoming-features)
+    - [Recent Achievements](#recent-achievements)
+  - [Contributing](#contributing)
+    - [Quick Start for Contributors](#quick-start-for-contributors)
+    - [Development Guidelines](#development-guidelines)
+    - [Code of Conduct](#code-of-conduct)
+  - [Testing](#testing)
+    - [Testing Strategy](#testing-strategy)
+  - [Deployment](#deployment)
+    - [Automatic Deployment](#automatic-deployment)
+    - [Development Branch](#development-branch)
+    - [Manual Deployment](#manual-deployment)
+    - [Environment Variables](#environment-variables)
+  - [Performance](#performance)
+    - [Performance Optimizations](#performance-optimizations)
+  - [Browser Support](#browser-support)
+  - [License](#license)
+  - [Contact](#contact)
+  - [Contributors](#contributors)
+  - [Acknowledgments](#acknowledgments)
 
 </details>
 
@@ -60,16 +78,16 @@
 
 Zenyukti Website is a modern, responsive web application built with cutting-edge technologies to deliver exceptional user experiences. Our mission is to provide a fast, accessible, and visually appealing platform that serves our community's needs.
 
-### ✨ Key Features
+### Key Features
 
-- 📱 **Fully Responsive** - Seamless experience across all devices and screen sizes
-- ⚡ **Lightning Fast** - Optimized performance with <3s load times
-- 🔍 **SEO Optimized** - Built-in SEO best practices
-- 🎨 **Modern Design** - Clean, intuitive user interface
-- 🌙 **Dark Mode Support** - Toggle between light and dark themes (Coming Soon)
-- 🔧 **Developer Friendly** - Well-documented codebase with modern tooling
-- 🚀 **CI/CD Pipeline** - Automated testing and deployment (Coming Soon)
-- 🔍 **Detailed Info** - Visit Wiki pages [Home Page - wiki | ZenYukti](https://github.com/ZenYukti/zenyukti.github.io/wiki)
+- **Fully Responsive** - Seamless experience across all devices and screen sizes
+- **Lightning Fast** - Optimized performance with <3s load times
+- **SEO Optimized** - Built-in SEO best practices
+- **Modern Design** - Clean, intuitive user interface
+- **Dark Mode Support** - Toggle between light and dark themes (Coming Soon)
+- **Developer Friendly** - Well-documented codebase with modern tooling
+- **CI/CD Pipeline** - Automated testing and deployment (Coming Soon)
+- **Detailed Info** - Visit Wiki pages [Home Page - wiki | ZenYukti](https://github.com/ZenYukti/zenyukti.github.io/wiki)
 
 ---
 
@@ -151,6 +169,10 @@ git --version   # Any recent version
    
    The app will automatically reload when you make changes.
 
+4. **Want to contribute?**
+   
+   Please refer to our [Contributing Guide](CONTRIBUTING.md) for detailed information on our development workflow, branch strategy, and how to submit pull requests.
+
 ---
 
 ## Usage
@@ -160,6 +182,8 @@ git --version   # Any recent version
 The website is designed to be intuitive and user-friendly. Simply navigate to the [live site](https://zenyukti.github.io/) to explore all features.
 
 ### Development Workflow
+
+> **IMPORTANT:** We use a `dev` branch for development. Please see our [Branch Strategy](BRANCH_STRATEGY.md) document for details on our branching model.
 
 ```bash
 # Start development server
@@ -182,29 +206,61 @@ npm run preview
 
 ## Project Structure
 ```
-zenyukti.github.io/
+website/
 ├── 📁 .github/                    # GitHub configuration
-│   └── 📁 ISSUE_TEMPLATE/         # Issue and PR templates
-│       ├── 📄 bug_report.md       # Bug report template
-│       └── 📄 feature_request.md  # Feature request template
-├── 📁 dist/                       # Production build output (generated)
-│   ├── 📁 assets/                 # Compiled assets (CSS, JS, images)
-│   └── 📄 index.html              # Main HTML file
-├── 📁 node_modules/               # Dependencies (auto-generated)
+│   └── 📄 PULL_REQUEST_TEMPLATE.md # PR template
+├── 📁 public/                     # Public assets served as-is
+│   ├── 📁 assets/                 # Static assets
+│   │   ├── � favicons/           # Favicon files
+│   │   ├── 📁 profile/            # Team member profile images
+│   │   └── � teamImages/         # Team photos
+│   ├── 📄 events.json             # Events data
+│   ├── � favicon.ico             # Main favicon
+│   ├── 📄 robots.txt              # Robots crawl instructions
+│   └── 📄 sitemap.xml             # Site map for SEO
 ├── 📁 src/                        # Source code
-│   ├── 📁 assets/                 # Static assets (images, fonts, icons)
+│   ├── 📁 assets/                 # Application assets
+│   │   └── � teamdata/           # Team data files
 │   ├── 📁 components/             # Reusable React components
+│   │   ├── 📁 ui/                 # UI components
+│   │   ├── 📄 DomainsPreview.tsx  # Domain preview component
+│   │   ├── � EventCard.tsx       # Event card component
+│   │   ├── 📄 Footer.tsx          # Footer component
+│   │   ├── 📄 Header.tsx          # Header component
+│   │   ├── 📄 Hero.tsx            # Hero section component
+│   │   ├── � icons.ts            # Icon components
+│   │   ├── 📄 Purpose.tsx         # Purpose section component
+│   │   ├── 📄 ScrollToHash.tsx    # Scroll to hash helper
+│   │   └── 📄 ScrollToTop.tsx     # Scroll to top component
 │   ├── 📁 hooks/                  # Custom React hooks
-│   ├── 📁 lib/                    # Utility libraries and helpers
-│   ├── 📁 pages/                  # Page components/routes
+│   │   ├── 📄 use-mobile.tsx      # Mobile detection hook
+│   │   └── 📄 use-toast.ts        # Toast notification hook
+│   ├── 📁 lib/                    # Utility libraries
+│   │   └── 📄 utils.ts            # Utility functions
+│   ├── 📁 media/                  # Media files
+│   ├── 📁 pages/                  # Page components
+│   │   ├── 📄 About.tsx           # About page
+│   │   ├── 📄 CodeOfConduct.tsx   # Code of conduct page
+│   │   ├── 📄 Community.tsx       # Community page
+│   │   ├── 📄 Contact.tsx         # Contact page
+│   │   ├── 📄 Index.tsx           # Home page
+│   │   ├── 📄 Join-us.tsx         # Join us page
+│   │   ├── 📄 NotFound.tsx        # 404 page
+│   │   ├── 📄 Privacy.tsx         # Privacy policy page
+│   │   ├── 📄 Projects.tsx        # Projects page
+│   │   ├── 📄 Team.tsx            # Team page
+│   │   └── 📄 TermsOfService.tsx  # Terms of service page
 │   ├── 📄 App.css                 # Main application styles
 │   ├── 📄 App.tsx                 # Root React component
 │   ├── 📄 index.css               # Global styles
 │   └── 📄 main.tsx                # Application entry point
 ├── 📄 .gitignore                  # Git ignore patterns
+├── 📄 BRANCH_STRATEGY.md          # Branch strategy documentation
 ├── 📄 components.json             # shadcn/ui component configuration
+├── 📄 CONTRIBUTING.md             # Contributing guidelines
 ├── 📄 eslint.config.js            # ESLint configuration
 ├── 📄 index.html                  # HTML template
+├── 📄 LICENSE                     # License information
 ├── 📄 package-lock.json           # Locked dependency versions
 ├── 📄 package.json                # Project configuration & dependencies
 ├── 📄 postcss.config.js           # PostCSS configuration
@@ -213,6 +269,7 @@ zenyukti.github.io/
 ├── 📄 tsconfig.app.json           # TypeScript config for app
 ├── 📄 tsconfig.json               # Main TypeScript configuration
 ├── 📄 tsconfig.node.json          # TypeScript config for Node.js
+├── 📄 vercel.json                 # Vercel deployment configuration
 └── 📄 vite.config.ts              # Vite build tool configuration
 ```
 ---
@@ -239,19 +296,18 @@ See the [open issues](https://github.com/ZenYukti/zenyukti.github.io/issues) for
 
 ### Upcoming Features
 
-- [ ] **Multi-language Support** - Internationalization (i18n)
 - [ ] **Progressive Web App** - PWA capabilities
-- [ ] **Advanced Analytics** - Detailed user analytics
-- [ ] **Content Management** - Dynamic content updates
-- [ ] **API Integration** - External service integration
-- [ ] **Performance Monitoring** - Real-time performance tracking
+- [ ] **Advanced Community Features** - Enhanced community engagement tools
+- [ ] **Event Management System** - Improved event handling and registration
+- [ ] **Member Dashboard** - Personalized dashboard for community members
+- [ ] **Project Showcase Expansion** - Enhanced project portfolio display
 
-### Recent Updates
+### Recent Achievements
 
 - [x] **Responsive Design** - Mobile-first approach
-- [x] **Dark Mode** - Theme switching capability
 - [x] **SEO Optimization** - Search engine optimization
-- [x] **Accessibility** - WCAG 2.1 compliance
+- [x] **Community Portal** - Dedicated community pages
+- [x] **Events Integration** - Community events display
 
 ---
 
@@ -262,12 +318,14 @@ We love contributions! Please read our [Contributing Guide](CONTRIBUTING.md) to 
 ### Quick Start for Contributors
 
 1. **Fork the repo**
-2. **Create your feature branch** (`git checkout -b feature/AmazingFeature`)
+2. **Create your feature branch from the `dev` branch** (`git checkout -b feature/AmazingFeature upstream/dev`)
 3. **Make your changes**
 4. **Run tests** (`npm test`)
 5. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
 6. **Push to the branch** (`git push origin feature/AmazingFeature`)
-7. **Open a Pull Request**
+7. **Open a Pull Request targeting the `dev` branch**
+
+> **IMPORTANT:** All pull requests must target the `dev` branch, not the `main` branch. We use `dev` for development and integration before merging to `main` for production.
 
 ### Development Guidelines
 
@@ -315,6 +373,10 @@ npm run test:e2e
 ### Automatic Deployment
 
 The project is automatically deployed to GitHub Pages when changes are pushed to the `main` branch.
+
+### Development Branch
+
+We use a `dev` branch for development and integration. All feature work and pull requests should target this branch. After thorough testing, changes from `dev` are merged into `main` for production deployment.
 
 ### Manual Deployment
 
@@ -396,11 +458,25 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information
 
 **Project Links**
 
-[🏠 Homepage](https://zenyukti.in/) • [📊 Issues](https://github.com/ZenYukti/zenyukti.github.io/issues) • [🚀 Releases](https://github.com/ZenYukti/zenyukti.github.io/releases) • [📈 Insights](https://github.com/ZenYukti/zenyukti.github.io/pulse)
+[Homepage](https://zenyukti.in/) • [Issues](https://github.com/ZenYukti/zenyukti.github.io/issues) • [Releases](https://github.com/ZenYukti/zenyukti.github.io/releases) • [Insights](https://github.com/ZenYukti/zenyukti.github.io/pulse)
 
 </div>
 
 ---
+
+## Contributors
+
+<div align="center">
+
+**Meet the amazing people who contribute to this project:**
+
+<a href="https://github.com/ZenYukti/zenyukti.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ZenYukti/zenyukti.github.io" alt="ZenYukti Contributors" />
+</a>
+
+</div>
+
+Want to be on this list? Check out our [Contributing Guide](CONTRIBUTING.md) to get started!
 
 ## Acknowledgments
 
@@ -410,19 +486,18 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information
 
 </div>
 
-- 🙏 All [contributors](https://github.com/ZenYukti/zenyukti.github.io/contributors) who participated in this project
-- 💡 The open-source community for inspiration and resources
-- 🛠️ [Vite](https://vitejs.dev/) team for the amazing build tool
-- 🎨 [GitHub](https://github.com/) for hosting and CI/CD capabilities
-- 📚 [MDN Web Docs](https://developer.mozilla.org/) for comprehensive documentation
+- The open-source community for inspiration and resources
+- [Vite](https://vitejs.dev/) team for the amazing build tool
+- [GitHub](https://github.com/) for hosting and CI/CD capabilities
+- [MDN Web Docs](https://developer.mozilla.org/) for comprehensive documentation
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by the Zenyukti Team**
+**Made with  by the Zenyukti Team**
 
-⭐ **Star this repository if you find it helpful!**
+**Star this repository if you find it helpful!**
 
 [![GitHub Stars](https://img.shields.io/github/stars/ZenYukti/zenyukti.github.io?style=social)](https://github.com/ZenYukti/zenyukti.github.io/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/ZenYukti/zenyukti.github.io?style=social)](https://github.com/ZenYukti/zenyukti.github.io/network/members)

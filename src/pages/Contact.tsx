@@ -135,7 +135,7 @@ const Contact = () => {
                     <Input
                       id="email"
                       type="email"
-                      placeholder="john@example.com"
+                      placeholder="your-email@domain.com"
                       className="bg-background border-border text-foreground"
                       value={form.email}
                       onChange={handleChange}
@@ -301,7 +301,7 @@ const Contact = () => {
   className="border-white text-white hover:bg-white hover:text-primary"
   onClick={() =>
     window.open(
-      `mailto:info@zenyukti.in?subject=${encodeURIComponent(
+      `mailto:partnerships@zenyukti.in?subject=${encodeURIComponent(
         "Partnership Proposal with ZenYukti"
       )}&body=${encodeURIComponent(
         "Hi ZenYukti Team,\n\nI’m interested in partnering with your community. Please let me know the next steps.\n\nBest regards,\n[Your Name]"
