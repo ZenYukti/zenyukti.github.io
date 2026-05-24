@@ -37,7 +37,6 @@ const Footer = () => {
     { icon: Whatsapp, href: "https://chat.whatsapp.com/Em0d53VddahBeIEv69W4o8", label: "Whatsapp" },
     { icon: Linkedin, href: "https://linkedin.com/company/zenyukti", label: "LinkedIn" },
     { icon: X, href: "https://x.com/ZenYukti", label: "Twitter" },
-    { icon: Commudle, href: "https://www.commudle.com/communities/zenyukti", label: "Commudle" },
      ];
 
   return (
